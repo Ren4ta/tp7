@@ -27,8 +27,10 @@ export default function App() {
         value={password}
       />
        <View style={styles.buttonContainer}>
-        <Button title="Ingresar" onPress={handleLogin} color="#0000FF" />
-      </View>
+        <Button title="Ingresar"  color="#0000FF" />
+      </View> 
+      <Text>Olvidaste la clave?</Text> 
+      <Text>Crear Cuenta</Text>
     </View>
   );
 }
